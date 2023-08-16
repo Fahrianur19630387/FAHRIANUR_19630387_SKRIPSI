@@ -1,0 +1,65 @@
+body {
+        height: 297mm;
+        width: 210mm;
+        font-family: times new roman;
+        /*border: dashed;
+*/
+
+        /* to centre page on screen*/
+        margin-top: 2cm;
+        margin-left: 3cm;
+        margin-right: 2cm;
+        margin-bottom: 2cm;
+    }
+    h1, h2, h3, h4, h5, h6{
+        text-align: center;
+        margin: 0;
+    }
+    p{
+        text-align: justify;
+        margin: 3;
+        padding: 4px;
+    }
+
+    
+    strong{
+        float: right;
+    }
+    table{
+        margin-top: 10px;
+        margin: 3;
+
+    }
+    td{
+        /*text-align: justify;*/
+        margin: 3;
+        padding: 4px;
+
+    }
+    img{
+        display: inline-block;
+        margin-left: 10px;
+        position: absolute;
+    }
+    .judul{
+        margin-top: 10px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .ttd{
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        float: right;
+        margin-top: 2px;
+        /*border: 3px solid #4CAF50;*/
+    }
+    .tulisan{
+        margin-bottom: 70px;
+    }
+
+    .garis {
+     border-top: 5px double #000;
+    }
